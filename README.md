@@ -1,5 +1,7 @@
 # About the project 
-Some evolutionary algorithms implemented in java:
+Some evolutionary algorithms implemented in java with a GUI to configure the input parameters and show population evolution. 
+
+<img src="img/gui-graph.png" width="600" align="middle">
 
 ##  Basic genetic algorithm.
 
@@ -19,9 +21,10 @@ the reproduction and merged again once this was done.
 ## Optimal group selection
 Extends the evolutionary algorithm to implement an algorithm to optimize the student
   distribution in an automatic group assignment system.
+  
 ## Koza's algorithm
 Algorithm to make an artificial ant follow an irregular food path. Such as the following map where the
 ones represent the food path.
 
+<img src="img/ant-maze.png" width="600" align="middle">
 
-The project also contains a GUI that shows statistics about the population evolution.
