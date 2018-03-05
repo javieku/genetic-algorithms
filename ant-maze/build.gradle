@@ -3,6 +3,10 @@ version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
 
+sourceSets {
+    src
+}
+
 sourceCompatibility = 1.8
 
 repositories {
@@ -11,4 +15,7 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    compile sourceSets.src.output
+    compile 'com.github.yannrichet:JMathPlot:1.0.1'
 }
