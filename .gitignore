@@ -48,3 +48,7 @@ fabric.properties
 .idea
 #.idea/workspace.xml - remove # and delete .idea if it better suit your needs.
 .gradle
+
+
+*/META-INF/*
+
